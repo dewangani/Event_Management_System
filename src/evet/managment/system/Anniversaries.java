@@ -53,6 +53,7 @@ public class Anniversaries extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
+        jRadioButton3 = new javax.swing.JRadioButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
@@ -177,6 +178,10 @@ public class Anniversaries extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 1390, 780);
 
+        jRadioButton3.setText("jRadioButton3");
+        getContentPane().add(jRadioButton3);
+        jRadioButton3.setBounds(720, 90, 93, 23);
+
         setSize(new java.awt.Dimension(1338, 720));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
@@ -236,6 +241,7 @@ public class Anniversaries extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
